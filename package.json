@@ -58,6 +58,11 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": "20.x"
+  },
+  
   "author": "",
   "license": "ISC"
+  
 }
