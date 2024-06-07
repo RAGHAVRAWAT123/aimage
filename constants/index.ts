@@ -2,42 +2,48 @@ export const navLinks = [
     {
       label: "Home",
       route: "/",
-      icon: "/assets/icons/home.svg",
+      icon: "/assets/icons/home.png",
     },
     {
-      label: "Image Restore",
+      label: "Noise No More",
       route: "/transformations/add/restore",
-      icon: "/assets/icons/image.svg",
+      icon: "/assets/icons/image.png",
     },
     {
-      label: "Generative Fill",
+      label: "Zoomify Pro",
       route: "/transformations/add/fill",
-      icon: "/assets/icons/stars.svg",
+      icon: "/assets/icons/stars.png",
     },
     {
-      label: "Object Remove",
+      label: "Text2Image",
+      route: "/image-generator",
+      icon: "/assets/icons/menu.png",
+    },
+    {
+      label: "EraseMaster",
       route: "/transformations/add/remove",
-      icon: "/assets/icons/scan.svg",
+      icon: "/assets/icons/scan.png",
     },
     {
-      label: "Object Recolor",
+      label: "ColorShift",
       route: "/transformations/add/recolor",
-      icon: "/assets/icons/filter.svg",
+      icon: "/assets/icons/filter.png",
     },
+   
     {
-      label: "Background Remove",
+      label: "Bye-Bye Background",
       route: "/transformations/add/removeBackground",
-      icon: "/assets/icons/camera.svg",
-    },
-    {
-      label: "Profile",
-      route: "/profile",
-      icon: "/assets/icons/profile.svg",
+      icon: "/assets/icons/camera.png",
     },
     {
       label: "Buy Credits",
       route: "/credits",
-      icon: "/assets/icons/bag.svg",
+      icon: "/assets/icons/bag.png",
+    },
+    {
+      label: "Profile",
+      route: "/profile",
+      icon: "/assets/icons/profile.png",
     },
   ];
   
@@ -45,7 +51,7 @@ export const navLinks = [
     {
       _id: 1,
       name: "Free",
-      icon: "/assets/icons/free-plan.svg",
+      icon: "/assets/icons/free-plan.png",
       price: 0,
       credits: 20,
       inclusions: [
@@ -70,7 +76,7 @@ export const navLinks = [
     {
       _id: 2,
       name: "Pro Package",
-      icon: "/assets/icons/free-plan.svg",
+      icon: "/assets/icons/free-plan.png",
       price: 40,
       credits: 120,
       inclusions: [
@@ -95,7 +101,7 @@ export const navLinks = [
     {
       _id: 3,
       name: "Premium Package",
-      icon: "/assets/icons/free-plan.svg",
+      icon: "/assets/icons/free-plan.png",
       price: 199,
       credits: 2000,
       inclusions: [
@@ -122,42 +128,42 @@ export const navLinks = [
   export const transformationTypes = {
     restore: {
       type: "restore",
-      title: "Restore Image",
+      title: "Noise No More",
       subTitle: "Refine images by removing noise and imperfections",
       config: { restore: true },
-      icon: "image.svg",
+      icon: "image.png",
     },
     removeBackground: {
       type: "removeBackground",
-      title: "Background Remove",
+      title: "Bye-Bye Background",
       subTitle: "Removes the background of the image using AI",
       config: { removeBackground: true },
-      icon: "camera.svg",
+      icon: "camera.png",
     },
     fill: {
       type: "fill",
-      title: "Generative Fill",
+      title: "Zoomify Pro",
       subTitle: "Enhance an image's dimensions using AI outpainting",
       config: { fillBackground: true },
-      icon: "stars.svg",
+      icon: "stars.png",
     },
     remove: {
       type: "remove",
-      title: "Object Remove",
+      title: "EraseMaster",
       subTitle: "Identify and eliminate objects from images",
       config: {
         remove: { prompt: "", removeShadow: true, multiple: true },
       },
-      icon: "scan.svg",
+      icon: "scan.png",
     },
     recolor: {
       type: "recolor",
-      title: "Object Recolor",
+      title: "ColorShift",
       subTitle: "Identify and recolor objects from the image",
       config: {
         recolor: { prompt: "", to: "", multiple: true },
       },
-      icon: "filter.svg",
+      icon: "filter.png",
     },
   };
   
