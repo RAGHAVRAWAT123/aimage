@@ -8,5 +8,3 @@ export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 };
 
-/*OPENAI_API_KEY = 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
-*/
