@@ -58,7 +58,7 @@ export const Collection = ({
       {images.length > 0 ? (
         <ul className="collection-list">
           {images.map((image) => (
-            <Card image={image} key={image._id} />  /* eslint-disable-line  key can be assigned unknown */
+            <Card image={image} key={image.id} /> 
           ))}
         </ul>
       ) : (
