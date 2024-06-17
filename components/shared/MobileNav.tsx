@@ -35,14 +35,21 @@ const MobileNav = () => {
                 height={32}
                 className="cursor-pointer"
               />
-            </SheetTrigger>
-            <SheetContent className="sheet-content sm:w-64">
+            </SheetTrigger> 
+            <SheetContent className="sheet-content sm:w-64 bg-black">
               <>
                 <Image 
                   src="/assets/images/logo-text.png"
                   alt="logo"
                   width={152}
                   height={23}
+                />
+                <Image 
+                  src="/assets/icons/cross.png"
+                  alt="logo"
+                  width={15}
+                  height={20}
+                  className="cursor-pointer float-right mt--4"
                 />
 
               <ul className="header-nav_elements">

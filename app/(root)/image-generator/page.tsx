@@ -19,17 +19,17 @@ const GenerateImagePage: React.FC = () => {
         {
           prompt: prompt,
           n: 1,
-          size: '1024x1024', // Specify the size of the generated image
+          size: '1024x1024', 
         },
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer YOUR_OPENAI_API_KEY`, // Replace with your OpenAI API key
+            'Authorization': `Bearer YOUR_OPENAI_API_KEY`, 
           },
         }
       );
 
-      // Extract the URL of the generated image from the response
+      
       const generatedImageUrl = response.data.data[0].url;
       setImageUrl(generatedImageUrl);
     } catch (error) {
@@ -68,7 +68,7 @@ const GenerateImagePage: React.FC = () => {
       <button
         onClick={handleGenerateImage}
         disabled={loading}
-        className={`bg-gray-500 text-white font-bold py-2 px-4 rounded-full ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-green-600'} transition duration-300`}
+        className={`bg-blue-800 text-white font-bold py-2 px-4 rounded-full ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-500'} transition duration-300`}
 
       >
         {loading ? 'Generating...' : 'Generate Image'}
@@ -82,21 +82,13 @@ const GenerateImagePage: React.FC = () => {
         </div>
       )}
       
-<div className="mt-20 text-center">
-  <h2 className="text-white font-bold mb-4"> Access Feature</h2>
-  <p className="text-white font-bold mb-4"> To use this feature, you need to purchase OpenAI API keys</p>
- 
-  {/* Buttons and Links */}
-  <div className="mt-10 flex justify-center space-x-4">
-    <a href="https://openai.com/pricing" className='underline'>Learn More</a>
-  
-  </div>
+
  
   
 </div>
 
 
-    </div>
+    
   );
 };
 
