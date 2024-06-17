@@ -3,7 +3,7 @@
 ![Platform Screenshot](images/home.png)
 
 
-This is a Full Stack AI SaaS Platform built with [Next.js](https://nextjs.org/),a state-of-the-art application designed to offer a variety of AI-driven image processing services. This project leverages [Clerk](https://clerk.com/) for secure authentication and [MongoDB](https://www.mongodb.com/) for robust data management, ensuring a comprehensive and user-friendly experience.
+This is a Full Stack AI SaaS Platform built with [Next.js](https://nextjs.org/), a state-of-the-art application designed to offer a variety of AI-driven image processing services. This project leverages [Clerk](https://clerk.com/) for secure authentication and [MongoDB](https://www.mongodb.com/) for robust data management, ensuring a comprehensive and user-friendly experience.
 It offers features such as background removal, recoloring, image generation from text, and much more. Users can easily manage their subscriptions and payments through [Stripe](https://stripe.com/in), and enjoy advanced search functionality and seamless pagination.
 
 
@@ -32,25 +32,26 @@ It offers features such as background removal, recoloring, image generation from
 - **Payments**: Stripe
 - **UI Components**: ShadCN
 
-## Deployed Online:
+## Online Deployment:
 
-- **aimage-sooty.vercel.app**
+- [AImage] (https://aimage-sooty.vercel.app/)
+
 
 ## App In Action:
 
-- **Sign-In Page**
+
 ![Platform Screenshot](images/sign-in.png)
 
 - **Improved Dimensions** 
 ![Platform Screenshot](images/zoom.png)
 
--**Object Recolour**
+- **Object Recolour**
 ![Platform Screenshot](images/color.png)
 
--**Remove Objects**
+- **Remove Objects**
 ![Platform Screenshot](images/erase.png)
 
--**Stripe Payment**
+- **Stripe Payment**
 ![Platform Screenshot](images/stripe.png)
 
 
