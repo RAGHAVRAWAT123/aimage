@@ -1,12 +1,13 @@
-# Full Stack AI Software as a Service Platform
+# AI Software as a Service Application
 
-This repository contains the codebase for a Full Stack AI SaaS Platform built with [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-
-![Platform Screenshot](images/sign-in.png)
+![Platform Screenshot](images/home.png)
 
 
-## Features
+This is a Full Stack AI SaaS Platform built with [Next.js](https://nextjs.org/),a state-of-the-art application designed to offer a variety of AI-driven image processing services. This project leverages [Clerk](https://clerk.com/) for secure authentication and [MongoDB](https://www.mongodb.com/) for robust data management, ensuring a comprehensive and user-friendly experience.
+It offers features such as background removal, recoloring, image generation from text, and much more. Users can easily manage their subscriptions and payments through [Stripe](https://stripe.com/in), and enjoy advanced search functionality and seamless pagination.
+
+
+## Features:
 
 - **Image Recolour**: Recolour images based on user input.
 - **Background Removal**: Automatically remove backgrounds from images.
@@ -16,11 +17,12 @@ This repository contains the codebase for a Full Stack AI SaaS Platform built wi
 - **Removal of Objects**: Remove unwanted objects from images.
 - **Stripe**: Handles subscription and payment processing.
 - **ShadCN Components**: Offers pre-built UI components for a consistent and modern design.
-- **Download Images**: Users can download processed images.
+- **Download, Update and Delete Images**: Users can easily download, modify and delete images.
 - **Advanced Search Functionality**: Search through content with advanced filtering options.
 - **Pagination of Pages**: Paginate content for better navigation and user experience.
 
-## Tech Stack
+
+## Tech Stack:
 
 - **Framework**: Next.js 14
 - **Language**: TypeScript
@@ -30,11 +32,31 @@ This repository contains the codebase for a Full Stack AI SaaS Platform built wi
 - **Payments**: Stripe
 - **UI Components**: ShadCN
 
+## Deployed Online:
+
+- **aimage-sooty.vercel.app**
+
+## App In Action:
+
+- **Sign-In Page**
+![Platform Screenshot](images/sign-in.png)
+
+- **Improved Dimensions** 
+![Platform Screenshot](images/zoom.png)
+
+-**Object Recolour**
+![Platform Screenshot](images/color.png)
+
+-**Remove Objects**
+![Platform Screenshot](images/erase.png)
+
+-**Stripe Payment**
+![Platform Screenshot](images/stripe.png)
 
 
-## Setup
+## Setup:
 
-### Prerequisites
+### Prerequisites:
 
 Ensure you have the following installed:
 
@@ -42,7 +64,7 @@ Ensure you have the following installed:
 - npm or yarn
 - MongoDB
 
-### Installation
+### Installation:
 
 1. Clone the repository:
 
@@ -73,7 +95,7 @@ Ensure you have the following installed:
    - NEXT_PUBLIC_SERVER_URL
 
 
-## Running the Application
+## Running the Application:
 
 1. Run the development server:
 
@@ -90,7 +112,7 @@ bun dev
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Learn More
+## Learn More:
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -99,7 +121,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Vercel:
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
